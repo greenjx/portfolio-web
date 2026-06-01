@@ -1,0 +1,660 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>薛婧睿｜像素地图作品集</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="game-shell">
+      <header class="hud" aria-label="作品集状态栏">
+        <a class="player" href="#map" aria-label="回到地图">
+          <span class="avatar" aria-hidden="true"></span>
+          <span>
+            <strong>薛婧睿</strong>
+            <em>lianqiaoooo@163.com</em>
+          </span>
+        </a>
+        <nav class="hud-nav" aria-label="地图快捷入口">
+          <a href="#film">影像作品</a>
+          <a href="#script">剧本策划</a>
+          <a href="#promo">运营宣传</a>
+          <a href="#about">AI+</a>
+          <a href="#identity">身份卡片</a>
+        </nav>
+      </header>
+
+      <section class="map-stage" id="map" aria-label="作品集地图入口">
+        <div class="title-card intro-console pixel-box">
+          <div class="game-stats">
+            <div class="heart-row" aria-hidden="true">
+              <span class="heart"></span>
+              <span class="heart"></span>
+              <span class="heart"></span>
+            </div>
+            <strong>PLAYER PROFILE</strong>
+          </div>
+          <div class="profile-hero">
+            <div class="dialog-avatar" aria-hidden="true">
+              <img src="./assets/photos/avatar-original.jpg" alt="" />
+            </div>
+            <div class="profile-info">
+              <strong>薛婧睿</strong>
+              <div class="role-tags" aria-label="角色身份">
+                <span>Creator</span>
+                <span>Writer</span>
+                <span>Visual Explorer</span>
+              </div>
+            </div>
+          </div>
+          <p>在影像、文本与传播的三条岔路上，拼凑关于我的碎片吧🧩</p>
+          <a class="start-hint" href="#film">START QUEST</a>
+        </div>
+
+        <div class="world-map" aria-label="作品地图">
+          <div class="map-route route-a" aria-hidden="true"></div>
+          <div class="map-route route-b" aria-hidden="true"></div>
+          <a class="landmark cinema" href="#film" aria-label="进入影像作品">
+            <span class="roof"></span>
+            <span class="building"></span>
+            <strong>影像作品</strong>
+            <small>视频 / 摄影</small>
+          </a>
+          <a class="landmark tower" href="#script" aria-label="进入剧本策划">
+            <span class="roof"></span>
+            <span class="building"></span>
+            <strong>剧本策划</strong>
+            <small>剧本 / 策划评估</small>
+          </a>
+          <a class="landmark shop" href="#promo" aria-label="进入运营宣传">
+            <span class="roof"></span>
+            <span class="building"></span>
+            <strong>运营宣传</strong>
+            <small>账号作品</small>
+          </a>
+          <a class="map-robot-link" href="#about" aria-label="进入关于更多的我">
+            <span class="mini-robot" aria-hidden="true">
+              <i></i>
+              <i></i>
+            </span>
+            <strong>AI+</strong>
+          </a>
+
+          <div class="paw-print paw-a" aria-hidden="true"></div>
+          <div class="paw-print paw-b" aria-hidden="true"></div>
+          <div class="paw-print paw-c" aria-hidden="true"></div>
+          <div class="paw-print paw-d" aria-hidden="true"></div>
+        </div>
+      </section>
+
+      <div class="route-bridge" aria-hidden="true">
+        <span>01</span>
+      </div>
+
+      <section class="level" id="film" aria-labelledby="film-title">
+        <div class="level-head">
+          <p class="label">Level 01 <span>Gate 01</span></p>
+          <h2 id="film-title">影像作品</h2>
+          <a class="back-map pixel-button" href="#map">返回地图</a>
+        </div>
+        <div class="film-stage">
+          <article class="tv-card">
+            <div class="pixel-tv" aria-label="视频作品电视机素材位">
+              <div class="tv-screen">
+                <div class="scanline" aria-hidden="true"></div>
+                <video controls preload="metadata">
+                  <source src="./assets/biezaowomafan-web.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div class="tv-controls" aria-hidden="true">
+                <span></span>
+                <span></span>
+              </div>
+              <div class="tv-feet" aria-hidden="true"></div>
+            </div>
+            <div class="slot-copy">
+              <p class="label">Video Works</p>
+              <h3>视频作品</h3>
+              <span class="pixel-deco deco-cloud" aria-hidden="true"></span>
+              <span class="pixel-deco deco-flower" aria-hidden="true"></span>
+            </div>
+          </article>
+
+          <article class="film-card">
+            <div class="film-copy">
+              <p class="label">Photo Works</p>
+              <h3>摄影作品</h3>
+              <span class="pixel-deco deco-cloud" aria-hidden="true"></span>
+              <span class="pixel-deco deco-flower" aria-hidden="true"></span>
+            </div>
+            <div class="film-roll" aria-label="摄影作品胶片格">
+              <div class="film-frame">
+                <span>剧照</span>
+                <div class="photo-slot still">
+                  <div class="photo-grid still-grid">
+                    <img src="./assets/photos/still-01.jpg" alt="剧照 1" />
+                    <img src="./assets/photos/still-02.jpg" alt="剧照 2" />
+                    <img src="./assets/photos/still-03.jpg" alt="剧照 3" />
+                  </div>
+                </div>
+              </div>
+              <div class="film-frame">
+                <span>街拍</span>
+                <div class="photo-slot street">
+                  <div class="photo-grid street-grid">
+                    <img src="./assets/photos/street-01.jpg" alt="街拍 1" />
+                    <img src="./assets/photos/street-02.jpg" alt="街拍 2" />
+                    <img src="./assets/photos/street-03.jpg" alt="街拍 3" />
+                    <img src="./assets/photos/street-04.jpg" alt="街拍 4" />
+                  </div>
+                </div>
+              </div>
+              <div class="film-frame">
+                <span>写真</span>
+                <div class="photo-slot portrait">
+                  <div class="photo-grid portrait-grid">
+                    <img src="./assets/photos/portrait-01.jpg" alt="写真 1" />
+                    <img src="./assets/photos/portrait-02.jpg" alt="写真 2" />
+                    <img src="./assets/photos/portrait-03.jpg" alt="写真 3" />
+                    <img src="./assets/photos/portrait-04.jpg" alt="写真 4" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <div class="route-bridge" aria-hidden="true">
+        <span>02</span>
+      </div>
+
+      <section class="level script-zone" id="script" aria-labelledby="script-title">
+        <div class="level-head">
+          <p class="label">Level 02 <span>Gate 02</span></p>
+          <h2 id="script-title">剧本策划</h2>
+          <a class="back-map pixel-button" href="#map">返回地图</a>
+        </div>
+        <div class="book-scene script-book">
+          <div class="pixel-cat script-cat" aria-hidden="true"></div>
+          <div class="pixel-pen" aria-hidden="true"></div>
+          <div class="book-pages" aria-label="剧本策划文档，可横向滑动">
+            <article class="book-page script-index-page">
+              <p class="label">Script</p>
+              <h3>剧本</h3>
+              <div class="script-entry-grid">
+                <article class="script-entry">
+                  <span>01</span>
+                  <strong>长剧剧本</strong>
+                  <div class="entry-links">
+                    <a href="./assets/scripts-pdf/long-xinzhuangwang-stable.pdf" download>下载《新状王宋世杰》第一集</a>
+                  </div>
+                </article>
+                <article class="script-entry">
+                  <span>02</span>
+                  <strong>短剧剧本</strong>
+                  <div class="entry-links">
+                    <a href="./assets/scripts-pdf/short-sss-stable.pdf" download>下载《靠SSS级精神力，在兽世成为万人迷》</a>
+                    <a href="./assets/scripts-pdf/short-quanzhizhufu-ep2-stable.pdf" download>下载《全职主夫培养》第二集</a>
+                  </div>
+                </article>
+                <article class="script-entry">
+                  <span>03</span>
+                  <strong>中剧剧本</strong>
+                  <div class="entry-links">
+                    <a href="./assets/scripts-pdf/mid-kaimen-ex-ep1-stable.pdf" download>下载《开门是前任》第1集</a>
+                  </div>
+                </article>
+              </div>
+              <button class="ink-button" type="button" aria-label="加满钢笔墨水">
+                <span class="ink-bottle" aria-hidden="true"></span>
+              </button>
+            </article>
+            <article class="book-page plan-index-page">
+              <p class="label">Planning</p>
+              <h3>策划评估</h3>
+              <div class="plan-entry-list">
+                <a class="plan-entry" href="./assets/scripts-pdf/plan-kaimen-ex-stable.pdf" download>
+                  <span>《开门，是前任》策划案</span>
+                  <strong>下载</strong>
+                </a>
+              </div>
+            </article>
+          </div>
+          <p class="book-hint">← 左滑翻页 →</p>
+        </div>
+      </section>
+
+      <div class="route-bridge" aria-hidden="true">
+        <span>03</span>
+      </div>
+
+      <section class="level promo-zone" id="promo" aria-labelledby="promo-title">
+        <div class="level-head">
+          <p class="label">Level 03 <span>Gate 03</span></p>
+          <h2 id="promo-title">运营宣传</h2>
+          <a class="back-map pixel-button" href="#map">返回地图</a>
+        </div>
+        <div class="book-scene promo-book">
+          <div class="pixel-cat promo-cat" aria-hidden="true"></div>
+          <div class="pixel-megaphone" aria-hidden="true"></div>
+          <div class="book-pages account-pages" aria-label="账号作品截图区，可横向滑动">
+            <article class="book-page account-page">
+              <p class="label">Account Works</p>
+              <h3>账号作品</h3>
+              <div class="screenshot-slot douyin">
+                <span>抖音 01</span>
+                <div class="shot-gallery single-shot">
+                  <img src="./assets/account/douyin-01.jpg" alt="抖音账号作品截图 1" />
+                </div>
+              </div>
+            </article>
+            <article class="book-page account-page">
+              <p class="label">Account Works</p>
+              <h3>账号作品</h3>
+              <div class="screenshot-slot douyin">
+                <span>抖音 02</span>
+                <div class="shot-gallery single-shot">
+                  <img src="./assets/account/douyin-02.jpg" alt="抖音账号作品截图 2" />
+                </div>
+              </div>
+            </article>
+            <article class="book-page account-page">
+              <p class="label">Account Works</p>
+              <h3>账号作品</h3>
+              <div class="screenshot-slot douyin">
+                <span>抖音 03</span>
+                <div class="shot-gallery single-shot">
+                  <img src="./assets/account/douyin-03.jpg" alt="抖音账号作品截图 3" />
+                </div>
+              </div>
+            </article>
+            <article class="book-page account-page">
+              <p class="label">Account Works</p>
+              <h3>账号作品</h3>
+              <div class="screenshot-slot redbook">
+                <span>小红书</span>
+                <div class="shot-gallery single-shot">
+                  <img src="./assets/account/redbook-01.jpg" alt="小红书账号作品截图" />
+                </div>
+              </div>
+            </article>
+            <article class="book-page account-page">
+              <p class="label">Account Works</p>
+              <h3>账号作品</h3>
+              <div class="screenshot-slot bilibili">
+                <span>B站 01</span>
+                <div class="shot-gallery single-shot wide-account-shot">
+                  <img src="./assets/account/bilibili-01.jpg" alt="B站账号作品截图 1" />
+                </div>
+              </div>
+            </article>
+            <article class="book-page account-page">
+              <p class="label">Account Works</p>
+              <h3>账号作品</h3>
+              <div class="screenshot-slot bilibili">
+                <span>B站 02</span>
+                <div class="shot-gallery single-shot">
+                  <img src="./assets/account/bilibili-02.jpg" alt="B站账号作品截图 2" />
+                </div>
+              </div>
+            </article>
+            <article class="book-page account-page">
+              <p class="label">Account Works</p>
+              <h3>账号作品</h3>
+              <div class="screenshot-slot bilibili">
+                <span>B站 03</span>
+                <div class="shot-gallery single-shot">
+                  <img src="./assets/account/bilibili-03.jpg" alt="B站账号作品截图 3" />
+                </div>
+              </div>
+            </article>
+            <article class="book-page account-page">
+              <p class="label">Account Works</p>
+              <h3>账号作品</h3>
+              <div class="screenshot-slot weibo">
+                <span>微博 01</span>
+                <div class="shot-gallery single-shot">
+                  <img src="./assets/account/weibo-01.jpg" alt="微博账号作品截图 1" />
+                </div>
+              </div>
+            </article>
+            <article class="book-page account-page">
+              <p class="label">Account Works</p>
+              <h3>账号作品</h3>
+              <div class="screenshot-slot weibo">
+                <span>微博 02</span>
+                <div class="shot-gallery single-shot">
+                  <img src="./assets/account/weibo-02.jpg" alt="微博账号作品截图 2" />
+                </div>
+              </div>
+            </article>
+          </div>
+          <p class="book-hint">← 左滑查看下一张截图 →</p>
+        </div>
+      </section>
+
+      <div class="route-bridge" aria-hidden="true">
+        <span>04</span>
+      </div>
+
+      <section class="level about-zone" id="about" aria-labelledby="about-title">
+        <div class="level-head">
+          <p class="label">Final Level <span>AI Lab</span></p>
+          <h2 id="about-title">关于更多的我</h2>
+          <a class="back-map pixel-button" href="#map">返回地图</a>
+        </div>
+        <article class="about-card robot-lab ai-lab-console pixel-box">
+          <div class="ai-lab-head">
+            <div>
+              <p class="label">AI LAB</p>
+              <h3>AI实验室</h3>
+            </div>
+            <span class="lab-status">RUNNING / VISUAL TEST</span>
+          </div>
+
+          <div class="ai-lab-grid">
+            <aside class="lab-control-panel" aria-label="AI创作控制台">
+              <div class="robot-frame" aria-hidden="true">
+                <div class="robot-head">
+                  <span></span>
+                  <span></span>
+                </div>
+                <div class="robot-body"></div>
+              </div>
+              <div class="terminal-lines" aria-label="AI工具能力">
+                <p>&gt; Gemini / ChatGPT / DeepSeek</p>
+                <p>&gt; 即梦 / LIBTV visual test</p>
+                <p>&gt; Coze / Codex workflow</p>
+              </div>
+              <div class="parameter-stack" aria-hidden="true">
+                <span style="--value: 76%">prompt refine</span>
+                <span style="--value: 64%">style explore</span>
+                <span style="--value: 82%">asset build</span>
+              </div>
+            </aside>
+
+            <section class="lab-feature-file" aria-label="AI主视觉档案">
+              <div class="archive-meta">
+                <span>FILE 001</span>
+                <strong>MAIN GENERATION</strong>
+              </div>
+              <img src="./assets/ai-lab/anchor-01.jpg" alt="AI场景人物锚点图 1" />
+            </section>
+
+            <section class="ai-archive-grid" aria-label="AI生成图像档案">
+              <h4>场景 / 人物锚点图</h4>
+              <article>
+                <span>FILE 002</span>
+                <img src="./assets/ai-lab/anchor-02.jpg" alt="AI场景人物锚点图 2" />
+              </article>
+              <article>
+                <span>FILE 003</span>
+                <img src="./assets/ai-lab/anchor-03.jpg" alt="AI场景人物锚点图 3" />
+              </article>
+              <article>
+                <span>FILE 004</span>
+                <img src="./assets/ai-lab/anchor-04.jpg" alt="AI场景人物锚点图 4" />
+              </article>
+            </section>
+
+            <section class="ai-archive-grid" aria-label="AI分镜档案">
+              <h4>分镜</h4>
+              <article>
+                <span>FILE 005</span>
+                <img src="./assets/ai-lab/storyboard-01.jpg" alt="AI分镜总览" />
+              </article>
+            </section>
+
+            <section class="ai-archive-grid" aria-label="AI静帧档案">
+              <h4>关键静帧</h4>
+              <article>
+                <span>FILE 006</span>
+                <img src="./assets/ai-lab/still-01.png" alt="AI关键静帧 1" />
+              </article>
+              <article>
+                <span>FILE 007</span>
+                <img src="./assets/ai-lab/still-02.jpg" alt="AI关键静帧 2" />
+              </article>
+            </section>
+          </div>
+        </article>
+
+        <section class="profile-puzzle pixel-box" id="identity" aria-label="个人背景信息">
+          <div class="profile-content">
+            <p class="label">Player Info</p>
+            <h2>薛婧睿 <span>Pay attention. Be astonished. Tell about it.</span></h2>
+            <div class="profile-tags" aria-label="背景信息">
+              <span><b>专业背景</b><em>27届广播电视编导专业在读</em></span>
+              <span><b>工作地点</b><em>全国</em></span>
+              <span><b>实习时间</b><em>六个月以上</em></span>
+            </div>
+            <div class="profile-contact" aria-label="联系方式">
+              <span><b>微信</b><em>18709853879</em></span>
+              <span><b>邮箱</b><em>lianqiaoooo@163.com</em></span>
+            </div>
+            <div class="profile-bubbles" aria-label="更多性格标签">
+              <span>王者荣耀50+星老农民，欢迎偷我菜</span>
+              <span>专业陪拍，出片能手，快揣上我出去玩吧</span>
+              <span>性格抽象，好相处</span>
+              <span>有一万种抠门生活小技巧</span>
+            </div>
+          </div>
+        </section>
+      </section>
+
+    </main>
+    <aside class="quest-dock" aria-label="作品集关卡控制台">
+      <div class="quest-status">
+        <span>NOW PLAYING</span>
+        <strong data-current-view>地图</strong>
+      </div>
+      <div class="quest-dots" aria-label="关卡快捷切换">
+        <button type="button" data-target-view="map">地图</button>
+        <button type="button" data-target-view="film">影像</button>
+        <button type="button" data-target-view="script">剧本</button>
+        <button type="button" data-target-view="promo">运营</button>
+        <button type="button" data-target-view="about">AI+</button>
+      </div>
+      <div class="quest-id-card">
+        <button type="button" data-target-view="identity">身份卡片</button>
+      </div>
+    </aside>
+    <div class="screen-wipe" aria-hidden="true">
+      <span>LOADING</span>
+    </div>
+    <div class="photo-lightbox" hidden>
+      <button type="button" aria-label="关闭图片预览">关闭</button>
+      <img alt="" />
+    </div>
+    <div class="pixel-toast-layer" aria-hidden="true"></div>
+    <script>
+      const viewIds = ["map", "film", "script", "promo", "about", "identity"];
+      const viewLabels = {
+        map: "RETURN MAP",
+        film: "ENTER FILM",
+        script: "ENTER SCRIPT",
+        promo: "ENTER PROMO",
+        about: "ENTER AI+",
+        identity: "OPEN ID CARD",
+      };
+      const viewNames = {
+        map: "地图",
+        film: "影像作品",
+        script: "剧本策划",
+        promo: "运营宣传",
+        about: "AI+",
+        identity: "身份卡片",
+      };
+      const mapStage = document.querySelector(".map-stage");
+      const panels = Array.from(document.querySelectorAll(".level"));
+      const navLinks = Array.from(document.querySelectorAll(".hud-nav a"));
+      const transitionLayer = document.querySelector(".screen-wipe");
+      const dock = document.querySelector(".quest-dock");
+      const currentViewLabel = document.querySelector("[data-current-view]");
+      const dockDots = Array.from(document.querySelectorAll("[data-target-view]"));
+      const lightbox = document.querySelector(".photo-lightbox");
+      const lightboxImage = lightbox.querySelector("img");
+      const lightboxClose = lightbox.querySelector("button");
+      const typedTitles = new WeakSet();
+
+      function playTypewriter(scope) {
+        const title = scope.querySelector(".level-head h2");
+        if (!title || typedTitles.has(title)) return;
+        typedTitles.add(title);
+        const fullText = title.dataset.fullText || title.textContent.trim();
+        title.dataset.fullText = fullText;
+        title.textContent = "";
+        title.classList.add("is-typing");
+        let index = 0;
+        const tick = () => {
+          index += 1;
+          title.textContent = fullText.slice(0, index);
+          if (index < fullText.length) {
+            window.setTimeout(tick, 68);
+          } else {
+            title.classList.remove("is-typing");
+          }
+        };
+        window.setTimeout(tick, 120);
+      }
+
+      function flashUnlock(id) {
+        const activeItems = [
+          ...navLinks.filter((link) => link.getAttribute("href") === `#${id}`),
+          ...dockDots.filter((button) => button.dataset.targetView === id),
+          ...document.querySelectorAll(`.landmark[href="#${id}"], .map-robot-link[href="#${id}"]`),
+        ];
+        activeItems.forEach((item) => {
+          item.classList.remove("just-unlocked");
+          void item.offsetWidth;
+          item.classList.add("just-unlocked");
+          window.setTimeout(() => item.classList.remove("just-unlocked"), 760);
+        });
+      }
+
+      function setPortfolioView() {
+        const id = viewIds.includes(location.hash.slice(1)) ? location.hash.slice(1) : "map";
+        mapStage.classList.toggle("is-active", id === "map");
+        panels.forEach((panel) => {
+          panel.classList.toggle("is-active", panel.id === id || (id === "identity" && panel.id === "about"));
+        });
+        navLinks.forEach((link) => {
+          link.classList.toggle("is-current", link.getAttribute("href") === `#${id}`);
+        });
+        dockDots.forEach((button) => {
+          button.classList.toggle("is-current", button.dataset.targetView === id);
+        });
+        currentViewLabel.textContent = viewNames[id];
+        document.body.dataset.view = id;
+        const activePanel = panels.find((panel) => panel.classList.contains("is-active"));
+        if (activePanel) playTypewriter(activePanel);
+        flashUnlock(id);
+        if (id === "identity") {
+          window.setTimeout(() => document.querySelector("#identity").scrollIntoView({ block: "start" }), 40);
+        } else {
+          window.scrollTo(0, 0);
+        }
+      }
+
+      function moveToView(hash) {
+        const nextId = viewIds.includes(hash.slice(1)) ? hash.slice(1) : "map";
+        transitionLayer.querySelector("span").textContent = viewLabels[nextId];
+        transitionLayer.classList.add("is-active");
+        window.setTimeout(() => {
+          if (location.hash === hash) {
+            setPortfolioView();
+          } else {
+            location.hash = hash;
+          }
+          window.setTimeout(() => transitionLayer.classList.remove("is-active"), 230);
+        }, 260);
+      }
+
+      window.addEventListener("hashchange", setPortfolioView);
+      setPortfolioView();
+
+      document.querySelectorAll('a[href^="#"]').forEach((link) => {
+        link.addEventListener("click", (event) => {
+          const hash = link.getAttribute("href");
+          if (!viewIds.includes(hash.slice(1))) return;
+          event.preventDefault();
+          moveToView(hash);
+        });
+      });
+
+      dockDots.forEach((button) => {
+        button.addEventListener("click", () => moveToView(`#${button.dataset.targetView}`));
+      });
+
+      document.querySelectorAll(".book-scene").forEach((scene) => {
+        const pages = scene.querySelector(".book-pages");
+        if (!pages) return;
+        const controls = document.createElement("div");
+        controls.className = "scene-controls";
+        controls.innerHTML = '<button type="button">上一页</button><button type="button">下一页</button>';
+        scene.insertBefore(controls, pages);
+        const [prev, next] = controls.querySelectorAll("button");
+        const turnPage = (direction) => {
+          pages.scrollTo({
+            left: pages.scrollLeft + direction * Math.max(240, pages.clientWidth - 44),
+            behavior: "smooth",
+          });
+        };
+        prev.addEventListener("click", () => turnPage(-1));
+        next.addEventListener("click", () => turnPage(1));
+      });
+
+      document.querySelectorAll(".photo-grid img, .shot-gallery img, .ai-grid img, .lab-feature-file img, .ai-archive-grid img").forEach((image) => {
+        image.addEventListener("click", () => {
+          lightboxImage.src = image.currentSrc || image.src;
+          lightboxImage.alt = image.alt;
+          lightbox.hidden = false;
+          lightbox.classList.add("is-open");
+        });
+      });
+
+      function closeLightbox() {
+        lightbox.classList.remove("is-open");
+        window.setTimeout(() => {
+          lightbox.hidden = true;
+          lightboxImage.removeAttribute("src");
+        }, 120);
+      }
+
+      lightboxClose.addEventListener("click", closeLightbox);
+      lightbox.addEventListener("click", (event) => {
+        if (event.target === lightbox) closeLightbox();
+      });
+      window.addEventListener("keydown", (event) => {
+        if (event.key === "Escape" && !lightbox.hidden) closeLightbox();
+      });
+
+      document.querySelectorAll(".ink-button").forEach((button) => {
+        button.addEventListener("click", () => {
+          button.classList.remove("filled");
+          window.requestAnimationFrame(() => {
+            button.classList.add("filled");
+            window.setTimeout(() => button.classList.remove("filled"), 1200);
+          });
+        });
+      });
+
+      const easterLines = ["别点我啦", "这里没有宝箱", "档案馆巡逻中", "去点房子吧", "喵，空白区域"];
+      const ignoredZones =
+        "a, button, video, img, .pixel-box, .level-head, .tv-card, .film-card, .book-scene, .about-card, .profile-puzzle, .quest-dock, .photo-lightbox, .landmark, .screen-wipe, .map-robot-link";
+
+      document.addEventListener("click", (event) => {
+        if (event.target.closest(ignoredZones)) return;
+        const bubble = document.createElement("span");
+        bubble.className = "pixel-barrage";
+        bubble.textContent = easterLines[Math.floor(Math.random() * easterLines.length)];
+        bubble.style.left = `${event.clientX}px`;
+        bubble.style.top = `${event.clientY}px`;
+        document.body.appendChild(bubble);
+        window.setTimeout(() => bubble.remove(), 1000);
+      });
+    </script>
+  </body>
+</html>
